@@ -53,6 +53,7 @@ input[type="password"] {
   font-family: "PT mono", sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
+  outline: 0;
 }
 
 .log_in:hover {
