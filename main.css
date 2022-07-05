@@ -1,7 +1,7 @@
 :root {
-  --dark: #000000;
+  --dark: #000847;
   --darker: #1f2937;
-  --darkest: #000000;
+  --darkest: #111111;
   --grey: #6b7280;
   --light: rgb(255, 255, 255);
   --color: #000000;
@@ -52,7 +52,7 @@ button {
   flex: 1 1 0%;
   background-color: var(--light);
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin-right: 1rem;
   color: var(--darkest);
   font-size: 1.25rem;
@@ -68,6 +68,7 @@ button {
   font-weight: 700;
   background-color: var(--light);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
   transition: 0.4s;
@@ -104,7 +105,7 @@ main {
   justify-content: space-between;
   background-color: var(--light);
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -149,6 +150,7 @@ main {
 .task .actions .edit {
   background-color: var(--darkest);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
